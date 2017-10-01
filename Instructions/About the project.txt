@@ -1,0 +1,20 @@
+Its cloud computing project proving command line interface to access the different services totally based 
+on Socket Programming in Python and Database is stored and retrieved from File. There are various modules 
+for different services.There is use of multithreading in program so multi user can use it at same time by changing there port Address.
+Server IP:- 192.168.1.3   Port 1996
+
+It has following component:- 
+1.Create User Account:-If a user want to access the cloud computing services first create the user account.
+			The User Id and Password is Stored in File On Server Side.
+2.Choose type of Os you have:- After creation of account then login using UserId and Password and then type 
+				OS you have on your laptop.
+				NOTE: ONLY WORK FOR BASE OS AS REDHAT LINUX WITH PYTHON
+3.Services provided:- 
+	a.SOFTARE AS A SERVICE:- Software is provided using SSH protocol with Window X11 Forwading 
+	b.INFRASTRUCTURE AS A SERVICE:-Using qemu-kvm and noVNC protocol (under implementation)
+	c.STORAGE AS A SERVICE:- Two type of Storage
+		i)Object Storage:- Using NFS, SSHFS, GLUSTERFS Protocol
+		ii)Block Storage:- Using ISCSI, TargetCli protocol
+	d.PLATFORM AS A SEREVICE:- Using Docker & Container (Under Implemenation)
+
+
